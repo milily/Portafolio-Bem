@@ -90,7 +90,21 @@
 				background-color: $rojo;
 				@include rrss();
 			}
-			
+			.sec__pinterest{
+				color: $blanco;
+				background-color: $rojo-pinterest;
+				@include rrss();
+			}
+			.sec__github{
+				color: $blanco;
+				background-color: $negro;
+				@include rrss();
+			}
+			.sec__linkedin{
+				color: $blanco;
+				background-color: $azul-linkedin;
+				@include rrss();
+			}
 		}
 	}
 }
