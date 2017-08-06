@@ -1,3 +1,35 @@
+* {
+  margin: 0;
+  padding: 0; }
 
+/* NAVBAR */
+.first-section .navbar-inverse {
+  background-color: #DC2F50;
+  border-bottom: #DC2F50;
+  padding: 10px; }
+  .first-section .navbar-inverse div .navnav .navnav__item li .navnav__item__img {
+    margin-top: 5px;
+    margin-left: 300px; }
+  .first-section .navbar-inverse div .navnav .navnav__item li .navnav__item__link {
+    color: #FAF9F9;
+    font-weight: bold;
+    margin-left: 15px; }
+
+/* PROFILE */
+.second-section {
+  background-color: #1C2144;
+  height: 638px;
+  padding-top: 150px; }
+  .second-section .desc .desc__div .desc__div__mini {
+    position: relative;
+    left: 400px;
+    top: 30px;
+    background-color: #D5D3D3;
+    width: 160px;
+    height: 150px;
+    border-radius: 200px;
+    color: #1C2144;
+    font-size: 40px;
+    padding-top: 45px; }
 
 /*# sourceMappingURL=main.css.map */
