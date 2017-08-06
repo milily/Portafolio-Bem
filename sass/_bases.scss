@@ -72,5 +72,25 @@
 			margin-top: 30px;
 		}
 	}
-	
+	.sec{
+		.sec__rrss{
+			margin-top: 55px;
+			.sec__facebook{
+				color: $blanco;
+				background-color: $azul-facebook;
+				@include rrss();
+			}
+			.sec__twitter{
+				color: $blanco;
+				background-color: $celeste;
+				@include rrss();
+			}
+			.sec__google{
+				color: $blanco;
+				background-color: $rojo;
+				@include rrss();
+			}
+			
+		}
+	}
 }
