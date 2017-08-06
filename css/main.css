@@ -31,5 +31,80 @@
     color: #1C2144;
     font-size: 40px;
     padding-top: 45px; }
+  .second-section .sec {
+    position: relative;
+    right: 50px; }
+    .second-section .sec .sec__titulo {
+      color: #389769; }
+    .second-section .sec .sec__subtitulo {
+      color: #D5D3D3;
+      font-size: 15px;
+      font-weight: bold;
+      margin-bottom: 30px; }
+    .second-section .sec .sec__description {
+      color: #D5D3D3; }
+    .second-section .sec .sec-button {
+      background-color: #389769;
+      border-color: #389769;
+      color: #FAF9F9;
+      width: 150px;
+      border-radius: 30px;
+      margin-top: 30px; }
+  .second-section .sec .sec__rrss {
+    margin-top: 55px; }
+    .second-section .sec .sec__rrss .sec__facebook {
+      color: #FAF9F9;
+      background-color: #5D49D5;
+      width: 25px;
+      height: 28px;
+      border-radius: 1px;
+      margin-right: 10px;
+      padding-top: 7px;
+      cursor: pointer; }
+    .second-section .sec .sec__rrss .sec__twitter {
+      color: #FAF9F9;
+      background-color: #45B2E5;
+      width: 25px;
+      height: 28px;
+      border-radius: 1px;
+      margin-right: 10px;
+      padding-top: 7px;
+      cursor: pointer; }
+    .second-section .sec .sec__rrss .sec__google {
+      color: #FAF9F9;
+      background-color: #F73434;
+      width: 25px;
+      height: 28px;
+      border-radius: 1px;
+      margin-right: 10px;
+      padding-top: 7px;
+      cursor: pointer; }
+    .second-section .sec .sec__rrss .sec__pinterest {
+      color: #FAF9F9;
+      background-color: #F30A0A;
+      width: 25px;
+      height: 28px;
+      border-radius: 1px;
+      margin-right: 10px;
+      padding-top: 7px;
+      cursor: pointer; }
+    .second-section .sec .sec__rrss .sec__github {
+      color: #FAF9F9;
+      background-color: #4E4C4C;
+      width: 25px;
+      height: 28px;
+      border-radius: 1px;
+      margin-right: 10px;
+      padding-top: 7px;
+      cursor: pointer; }
+    .second-section .sec .sec__rrss .sec__linkedin {
+      color: #FAF9F9;
+      background-color: #2372D3;
+      width: 25px;
+      height: 28px;
+      border-radius: 1px;
+      margin-right: 10px;
+      padding-top: 7px;
+      cursor: pointer; }
 
 /*# sourceMappingURL=main.css.map */

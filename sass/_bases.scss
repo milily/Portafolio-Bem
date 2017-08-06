@@ -48,4 +48,63 @@
 			}
 		}
 	}
+	.sec{
+		position: relative;
+		right: 50px;
+		.sec__titulo{
+			color: $verde;
+		}
+		.sec__subtitulo{
+			color: $grey;
+			font-size: 15px;
+			font-weight: bold;
+			margin-bottom: 30px;
+		}
+		.sec__description{
+			color: $grey;
+		}
+		.sec-button{
+			background-color:$verde;
+			border-color: $verde;
+			color: $blanco;
+			width: 150px;
+			border-radius: 30px;
+			margin-top: 30px;
+		}
+	}
+	.sec{
+		.sec__rrss{
+			margin-top: 55px;
+			.sec__facebook{
+				color: $blanco;
+				background-color: $azul-facebook;
+				@include rrss();
+			}
+			.sec__twitter{
+				color: $blanco;
+				background-color: $celeste;
+				@include rrss();
+			}
+			.sec__google{
+				color: $blanco;
+				background-color: $rojo;
+				@include rrss();
+			}
+			.sec__pinterest{
+				color: $blanco;
+				background-color: $rojo-pinterest;
+				@include rrss();
+			}
+			.sec__github{
+				color: $blanco;
+				background-color: $negro;
+				@include rrss();
+			}
+			.sec__linkedin{
+				color: $blanco;
+				background-color: $azul-linkedin;
+				@include rrss();
+			}
+		}
+	}
 }
